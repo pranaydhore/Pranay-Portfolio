@@ -56,7 +56,7 @@ const projects = [
     title: "Spotify Clone (HTML+CSS)",
     image: "/images/Spotify clone.jpg",
     github: "https://github.com/pranaydhore/Spotify-Clone.git",
-    live: "https://chat-app.com",
+    live: "https://relaxed-banoffee-c0168f.netlify.app/",
   },
   {
     title: "Blinkit Outlets Data Analysis",

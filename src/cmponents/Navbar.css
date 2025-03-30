@@ -112,9 +112,9 @@
       border-radius: 0;
     }
   
-    .nav-item:hover {
-      background-color: #4a69bd;
-    }
+    /* .nav-item:hover {
+      /* background-color: #4a69bd; 
+    } */
     
     .nav-item::after {
       display: none;

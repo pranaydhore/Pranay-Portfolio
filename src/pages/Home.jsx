@@ -5,7 +5,7 @@ import {
   Instagram,
   Twitter 
 } from 'lucide-react';
-import pranayImage from '../assets/images/pranay.jpg'; 
+import pranayImage from '../assets/pranay.jpg'; 
 
 // Custom animation hook
 const useAnimate = (delay = 0) => {

@@ -22,9 +22,10 @@ const educationData = [
 const Education = () => {
   return (
     <div
-      className="flex justify-center items-center min-h-screen px-6"
+      className="flex justify-center items-center min-h-screen px-4 md:px-10 py-10 w-full"
       style={{
-        backgroundImage: "linear-gradient(135deg, #111827, #1e3a8a 40%, #0f172a 80%)",
+        backgroundImage:
+          "linear-gradient(135deg, #111827, #1e3a8a 40%, #0f172a 80%)",
         color: "white",
         display: "flex",
         flexDirection: "column",
@@ -33,7 +34,7 @@ const Education = () => {
     >
       {/* Title */}
       <h1
-        className="text-4xl font-bold mb-10 text-center"
+        className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8 text-center px-4"
         style={{
           backgroundImage: "linear-gradient(to right, white, #93c5fd)",
           WebkitBackgroundClip: "text",
@@ -44,7 +45,7 @@ const Education = () => {
       </h1>
 
       {/* Cards Container */}
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center w-full max-w-xs sm:max-w-sm md:max-w-lg lg:max-w-xl">
         {educationData.map((item, index) => (
           <motion.div
             key={index}
@@ -53,14 +54,12 @@ const Education = () => {
             transition={{ duration: 0.7, delay: index * 0.2 }}
             whileHover={{ scale: 1.05, rotate: 2 }}
             whileTap={{ scale: 0.95 }}
-            className="p-6 rounded-xl shadow-lg relative flex flex-col justify-center text-center"
+            className="p-4 sm:p-6 rounded-xl shadow-lg relative flex flex-col justify-center text-center w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xl"
             style={{
-              width: "500px",
-              height: "200px",
               background: "rgba(255, 255, 255, 0.1)", // Transparent card
               border: "2px solid rgba(255, 255, 255, 0.3)",
               backdropFilter: "blur(15px)", // Glass effect
-              marginBottom: "30px",
+              marginBottom: "20px",
               alignItems: "center",
               justifyContent: "center",
               transition: "0.3s",
@@ -92,9 +91,9 @@ const Education = () => {
             />
 
             {/* Card Content */}
-            <h2 className="text-xl font-semibold z-10">{item.degree}</h2>
-            <h3 className="text-lg text-gray-300 z-10">{item.institution}</h3>
-            <span className="text-md text-gray-400 z-10">{item.year}</span>
+            <h2 className="text-sm sm:text-lg md:text-xl font-semibold z-10">{item.degree}</h2>
+            <h3 className="text-xs sm:text-md md:text-lg text-gray-300 z-10">{item.institution}</h3>
+            <span className="text-xs sm:text-sm md:text-md text-gray-400 z-10">{item.year}</span>
           </motion.div>
         ))}
       </div>

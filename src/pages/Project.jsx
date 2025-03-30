@@ -1,89 +1,90 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+
 // Project Data with Image URLs
 const projects = [
   {
     title: "AI Disease Prediction System",
-    image: "./public/images/Ai diseaase.png",
+    image: "/images/Ai diseaase.png",
     github: "https://github.com/pranaydhore/AI.git",
     live: "https://9egsxbzxy56rathhmg3cyb.streamlit.app/",
   },
   {
     title: "Object Detection By Yolo Model",
-    image: "./public/images/Oject Detection.png",
+    image: "/images/Oject Detection.png",
     github: "https://github.com/pranaydhore/Object-Detection-.git",
     live: "https://ecommerce-app.com",
   },
   {
     title: "Potato Leaf Disease Detection",
-    image: "./public/images/Potato.jpg",
+    image: "/images/Potato.jpg",
     github: "https://github.com/pranaydhore/Potato-Leafs-Disease-Prediction.git",
     live: "https://web1py-l6tnedf78mzswvmzsrbmx9.streamlit.app/",
   },
   {
     title: "Face Attendence System",
-    image: "./public/images/Attendence System.jpg",
+    image: "/images/Attendence System.jpg",
     github: "https://github.com/pranaydhore/Face-Attendences-System.git",
     live: "https://chat-app.com",
   },
   {
     title: "Netflix Data Analysis",
-    image: "./public/images/Netflix.jpg",
+    image: "/images/Netflix.jpg",
     github: "https://github.com/pranaydhore/Netflix-Analysis-By-Power-BI.git",
     live: "https://chat-app.com",
   },
   {
     title: "Amazon Sales Analysis",
-    image: "./public/images/Amazon Sales .jpg",
+    image: "/images/Amazon Sales .jpg",
     github: "https://github.com/pranaydhore/Amazon-Sales-Data-Analytics-Using-Power-BI.git",
     live: "https://chat-app.com",
   },
   {
     title: "Spotify Data Analysis",
-    image: "./public/images/Spotify.jpg",
+    image: "/images/Spotify.jpg",
     github: "https://github.com/pranaydhore/Spoitify-Data-Analysis-By-Power-BI.git",
     live: "https://chat-app.com",
   },
   {
     title: "Megastore Data Analysis",
-    image: "./public/images/Megastore.jpg",
+    image: "/images/Megastore.jpg",
     github: "https://github.com/yourusername/chat-app",
     live: "https://chat-app.com",
   },
   {
     title: "Spotify Clone (HTML+CSS)",
-    image: "./public/images/Spotify clone.jpg",
+    image: "/images/Spotify clone.jpg",
     github: "https://github.com/pranaydhore/Spotify-Clone.git",
     live: "https://chat-app.com",
   },
   {
     title: "Blinkit Outlets Data Analysis",
-    image: "./public/images/blinkit.png",
+    image: "/images/blinkit.png",
     github: "https://github.com/pranaydhore/Blinkit-Outlet-Sales-Analysis.git",
     live: "https://chat-app.com",
   },
   {
     title: "Swiggy Rating & Performance Analysis",
-    image: "./public/images/swiggy.png",
+    image: "/images/swiggy.png",
     github: "https://github.com/yourusername/chat-app",
     live: "https://chat-app.com",
   },
   {
     title: "Retail Store Data Analysis",
-    image: "./public/images/image.png",
+    image: "/images/image.png",
     github: "https://github.com/pranaydhore/Retail-Store-Inventory-Level-Analysis.git",
     live: "https://chat-app.com",
   },
   {
     title: "Meta Stock Data Analysis",
-    image: "./public/images/Megastore by python.png",
+    image: "/images/Megastore by python.png",
     github: "https://github.com/pranaydhore/Meta-Stock-Data-Analysis-By-Open-AI.git",
     live: "https://chat-app.com",
   },
   {
     title: "TODO List App",
-    image: "./public/images/Screenshot 2025-03-02 101724.png",
+    image: "/images/Screenshot 2025-03-02 101724.png",
     github: "https://github.com/yourusername/chat-app",
     live: "https://chat-app.com",
   },

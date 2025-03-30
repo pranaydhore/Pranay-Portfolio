@@ -14,13 +14,13 @@ const Navbar = () => {
           {isOpen ? <FaTimes /> : <FaBars />}
         </div>
         <ul className={isOpen ? "nav-links open" : "nav-links"}>
-          <li><Link to="/" className="nav-item" onClick={() => setIsOpen(false)}><b>Home</b></Link></li>
-          <li><Link to="/about" className="nav-item" onClick={() => setIsOpen(false)}><b>About</b></Link></li>
-          <li><Link to="/education" className="nav-item" onClick={() => setIsOpen(false)}><b>Education</b></Link></li>
-          <li><Link to="/projects" className="nav-item" onClick={() => setIsOpen(false)}><b>Projects</b></Link></li>
-          <li><Link to="/skill" className="nav-item" onClick={() => setIsOpen(false)}><b>Skills</b></Link></li>
-          <li><Link to="/internships" className="nav-item" onClick={()=>setIsOpen(false)}><b>Internship</b></Link></li>
-          <li><Link to="/contact" className="nav-item" onClick={() => setIsOpen(false)}><b>Contact</b></Link></li>
+          <Link to="/" className="nav-item" onClick={() => setIsOpen(false)}><b>Home</b></Link>
+          <Link to="/about" className="nav-item" onClick={() => setIsOpen(false)}><b>About</b></Link>
+          <Link to="/education" className="nav-item" onClick={() => setIsOpen(false)}><b>Education</b></Link>
+          <Link to="/projects" className="nav-item" onClick={() => setIsOpen(false)}><b>Projects</b></Link>
+          <Link to="/skill" className="nav-item" onClick={() => setIsOpen(false)}><b>Skills</b></Link>
+          <Link to="/internships" className="nav-item" onClick={()=>setIsOpen(false)}><b>Internship</b></Link>
+          <Link to="/contact" className="nav-item" onClick={() => setIsOpen(false)}><b>Contact</b></Link>
           
         </ul>
       </div>

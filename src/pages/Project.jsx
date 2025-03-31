@@ -23,6 +23,18 @@ const projects = [
     live: "https://web1py-l6tnedf78mzswvmzsrbmx9.streamlit.app/",
   },
   {
+    title: "Games & Calculator",
+    image: "/images/react.png",
+    github: "https://github.com/pranaydhore/React-Practice.git",
+    live: "https://react-practice-ochre.vercel.app/",
+  },
+  {
+    title: "Spotify Clone (HTML+CSS)",
+    image: "/images/Spotify clone.jpg",
+    github: "https://github.com/pranaydhore/Spotify-Clone.git",
+    live: "https://relaxed-banoffee-c0168f.netlify.app/",
+  },
+  {
     title: "Face Attendence System",
     image: "/images/Attendence System.jpg",
     github: "https://github.com/pranaydhore/Face-Attendences-System.git",
@@ -51,12 +63,6 @@ const projects = [
     image: "/images/Megastore.jpg",
     github: "https://github.com/yourusername/chat-app",
     live: "https://chat-app.com",
-  },
-  {
-    title: "Spotify Clone (HTML+CSS)",
-    image: "/images/Spotify clone.jpg",
-    github: "https://github.com/pranaydhore/Spotify-Clone.git",
-    live: "https://relaxed-banoffee-c0168f.netlify.app/",
   },
   {
     title: "Blinkit Outlets Data Analysis",
@@ -88,6 +94,7 @@ const projects = [
     github: "https://github.com/yourusername/chat-app",
     live: "https://chat-app.com",
   },
+  
 ];
 
 const Project = () => {
